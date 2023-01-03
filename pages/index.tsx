@@ -61,18 +61,18 @@ export default function Home() {
 
         <section className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
           <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center">
-            50° en France, c'est pas cool.<br/>
+            50° en France, c&apos;est pas cool.<br/>
             Alors on fait quoi ?
           </h1>
 
         </section>
 
         <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto">
-          La sécurité en eau, la sécurité alimentaire et notre santé sont menacées. Des pertes de biodiversité et d'écosystèmes sont annoncées.
+          La sécurité en eau, la sécurité alimentaire et notre santé sont menacées. Des pertes de biodiversité et d&apos;écosystèmes sont annoncées.
         </p>
         <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto">
-          Les faits sont clairs, c'est le moment d'agir. <br/>
-          L'enjeu est de taille : <b>assurer un futur vivable</b>.
+          Les faits sont clairs, c&apos;est le moment d&apos;agir. <br/>
+          L&apos;enjeu est de taille : <b>assurer un futur vivable</b>.
         </p>
 
         <div className={"flex justify-center gap-4 mt-6 md:mt-8"}>
@@ -84,8 +84,8 @@ export default function Home() {
         </div>
 
         <div className="max-w-6xl mx-auto mt-28">
-          <h2 className="mt-4 text-2xl sm:text-3xl text-slate-900 font-bold tracking-tight">Diviser sa consommation par 5, c'est possible ! ✨</h2>
-          <p className="text-slate-500 max-w-3xl mt-2">L'empreinte carbone moyenne d'un Français se situe autour de 10 tonnes CO₂e, le budget maximum cible par personne pour respecter l'accord de Paris est de 2 tonnes.</p>
+          <h2 className="mt-4 text-2xl sm:text-3xl text-slate-900 font-bold tracking-tight">Diviser sa consommation par 5, c&apos;est possible ! ✨</h2>
+          <p className="text-slate-500 max-w-3xl mt-2">L&apos;empreinte carbone moyenne d&apos;un Français se situe autour de 10 tonnes CO₂e, le budget maximum cible par personne pour respecter l&apos;accord de Paris est de 2 tonnes.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto mt-28" id="solutions">
