@@ -93,7 +93,7 @@ export default function Home() {
           <p className="text-slate-500 max-w-3xl mt-2">L&apos;empreinte carbone moyenne d&apos;un Français se situe autour de 10 tonnes CO₂e, le budget maximum cible par personne pour respecter l&apos;accord de Paris est de 2 tonnes.</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto mt-12 pt-18" id="solutions">
+        <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto mt-12 pt-16" id="solutions">
           {data.map((solution, index) => (
               <div key={index} className="text-center md:text-start">
                 <div className="inline-flex text-5xl h-20 w-20 p-4 items-center justify-center rounded-md bg-white shadow ring-1 ring-slate-900/10">
