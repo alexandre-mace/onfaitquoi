@@ -37,7 +37,6 @@ export default function Home() {
     },
     {
       "icon": "📺",
-      "iconSizeCorrection": 6,
       "title": "Garder ses appareils plus longtemps",
       "description": "Lave-vaisselle : 271kgCO₂e, Réfrigérateur : 196kgCO₂e, Écran LCD (24 pouces): 431kgCO₂e. Conserver plus longtemps ses appareils, acheter d'occasion ou réparer ses appareils sont des actions qui permettent de réduire de manière non négligeable votre empreinte carbone."
     },
