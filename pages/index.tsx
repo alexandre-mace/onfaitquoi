@@ -35,6 +35,12 @@ export default function Home() {
       "title": "Pour une voiture : il faut qu'elle soit petite et électrique",
       "description": "La littérature scientifique est claire, il faut privilégier l'électrique à la voiture thermique. Cependant, le second paramètre important à prendre en compte est le poids de la voiture. Remplacer le parc actuel par des SUV électriques n'est pas soutenable."
     },
+    {
+      "icon": "📺",
+      "iconSizeCorrection": 6,
+      "title": "Garder ses appareils plus longtemps",
+      "description": "Lave-vaisselle : 271kgCO₂e, Réfrigérateur : 196kgCO₂e, Écran LCD (24 pouces): 431kgCO₂e. Conserver plus longtemps ses appareils, acheter d'occasion ou réparer ses appareils sont des actions qui permettent de réduire de manière non négligeable votre empreinte carbone."
+    },
   ]
 
   return (
@@ -64,7 +70,6 @@ export default function Home() {
             50° en France, c&apos;est pas cool.<br/>
             Alors on fait quoi ?
           </h1>
-
         </section>
 
         <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto">
@@ -88,7 +93,7 @@ export default function Home() {
           <p className="text-slate-500 max-w-3xl mt-2">L&apos;empreinte carbone moyenne d&apos;un Français se situe autour de 10 tonnes CO₂e, le budget maximum cible par personne pour respecter l&apos;accord de Paris est de 2 tonnes.</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto mt-28" id="solutions">
+        <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto mt-12 pt-18" id="solutions">
           {data.map((solution, index) => (
               <div key={index} className="text-center md:text-start">
                 <div className="inline-flex text-5xl h-20 w-20 p-4 items-center justify-center rounded-md bg-white shadow ring-1 ring-slate-900/10">
