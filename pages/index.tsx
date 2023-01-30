@@ -48,7 +48,7 @@ export default function Home() {
         <title>On fait quoi ?</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/sparkles_2728.png" />
+        <link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/325/sparkles_2728.png" />
       </Head>
       <main className="container mx-auto mt-3 md:mt-6 px-7 pb-16 md:pb-36">
         <header className="flex justify-between">
